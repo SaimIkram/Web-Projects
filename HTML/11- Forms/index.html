@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This webpage is all about forms in HTML">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>Enter your details here</h1>
+    <form action="">
+        <label for="firstname">First Name</label>
+        <input id="firstname" type="text" name="FirstName">
+        <br><br>
+        <label for="">Last Name</label>
+        <input type="text">
+        <br><br>
+        <label for="">Age</label>
+        <input type="number">
+        <br><br>
+        <label for="date">Date of Birth</label>
+        <input id="date" type="date">
+        <br><br>
+        <label for="email">Email</label>
+        <input id="email" type="email">
+        <br><br>
+        <label for="password">Password</label>
+        <input id="password" type="password">
+        <br><br>
+        <label id="textarea" for="textarea">Tell us about yourself</label><br>
+        <textarea name="text" id="textarea" cols="30" rows="10"></textarea>
+        <p>Enter your Shirt Size</p>
+        <input id="small" name="shirtsize" type="radio" value="small">
+        <label for="small">Small</label><br>
+        <input id="medium" name="shirtsize" type="radio" value="medium">
+        <label for="medium">Medium</label><br>
+        <input id="large" name="shirtsize" type="radio" value="large">
+        <label for="large">Large</label>
+        <br><br>
+        <label for="cars">Choose a Car</label>
+        <select name="car" id="cars">
+            <option value="honda">Honda</option>
+            <option value="audi">Audi</option>
+            <option value="bughatti">Bughatti</option>
+            <option value=""></option>
+        </select>
+        <p>Choose you favorite color</p>
+        <label for="colors"></label>
+        <input id="colors" type="color">
+        <br><br>
+        <input id="reset" type="reset">
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
